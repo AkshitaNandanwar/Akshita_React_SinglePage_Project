@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#header {
+  height: 9vh;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+h3 span {
+  color: lightsalmon;
+}
+
+#header button {
+  background-color: royalblue;
+  color: white;
+  border-radius: 7px;
+  width: 22vw;
+  height: 7vh;
+  cursor: pointer;
+}
+
+#body {
+  /* background-color: red; */
+  height: 88vh;
+}
+
+#body img {
+  height: 100%;
+  width: 100%;
+}
+
+form,
+.log {
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+  left: 40vw;
+  top: 23vh;
+  opacity: 0.9;
+}
+
+#formInput {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+  justify-content: space-around;
+}
+
+input,
+select {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+select {
+  width: 190px;
+  border: 1px solid white;
+}
+
+.input select:invalid {
+  color: gray;
+}
+.input select option {
+  color: black;
+}
+
+form button {
+  text-align: center;
+  width: 60%;
+  margin-top: 20px;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+
+p span {
+  color: red;
+  cursor: pointer;
+}
